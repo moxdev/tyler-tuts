@@ -5,19 +5,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --open",
+    "dev": "webpack-dashboard -- webpack-dev-server --open",
     "build": "webpack"
   },
   "babel": {
-    "presets": [
-      "env",
-      "react"
-    ]
+    "presets": ["env", "react"]
   },
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "webpack-dashboard": "^1.0.2"
   },
   "devDependencies": {
     "axios": "^0.17.1",
